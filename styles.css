@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+
+    background:linear-gradient(rgba(54, 12, 12, 0.8),rgba(0,0,0,0.2)), url("india-agra-top-attractions-taj-mahal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    
+}
+
+.header{
+    position:sticky;
+    top:0px;
+    padding: 20px;
+    background-color:rgba(71, 19, 114, 0.11);
+    display:flex;
+    justify-content:space-between;
+
+  
+    
+}
+
+.menu a{
+    color:aqua;
+    padding:20px;
+    text-decoration: none;
+    
+    
+}
+.login a{
+    text-decoration: none;
+}
+.main{
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    
+  
+
+}
+.main h2{
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+}
+.footer{
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 50px;
+    margin-top:250px ;
+    display:flex;
+    justify-content:space-between;
+}
+
+.login{
+    
+    background-color: chartreuse;
+    border-radius: 20px;
+    padding:20px;
+
+
+    
+}
+.login:hover{
+    background-color:forestgreen;
+    border: 1px solid black;
+
+    
+}
+.header .logo{
+
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.login a{
+    color:rgb(255, 255, 255);
+}
+.logo{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color:antiquewhite;
+}
+.section{
+    border-radius:20px;
+    margin:250px;
+    padding:50px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.section p{
+    color:white;
+    letter-spacing: 2px;
+
+}
+.section h1{
+    color:white;
+    letter-spacing: 1px;
+
+}
+.section a{
+    text-decoration: none;
+    background-color: coral;
+    color:white;
+    padding:10px;
+    margin-top:20px;
+    border-radius: 10px;
+
+}
+.section a:hover{
+    background-color: brown;
+    border: 1px solid black;
+}
+h3{
+    color:white;
+    letter-spacing: 2px;
+}
+ ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+ul li a:hover{
+    border-bottom:1px solid white;
+}
